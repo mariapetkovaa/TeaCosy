@@ -1,0 +1,101 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+#logo {
+    padding: 10px;
+    height: 50px;
+}
+
+.header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+ul {
+    float: right;
+}
+.header li {
+    list-style: none;
+    display: inline-flex;
+    text-decoration: underline;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    height: 700px;
+}
+.mission-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 1200px;
+  }
+
+h2, h4, p, h3, h5 {
+    font-family: adobe-garamond-pro;
+}
+
+.tea-container img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-container {
+    width: 1200px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.item {
+   display: inline-flexbox;
+   flex-basis: 33.33%;
+}
+
+.locations {
+    position: relative;
+    height: 500px;
+}
+
+.heading {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.locations-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    display: flex;
+    text-align: center;
+  }
+
+.location {
+    background-color: black;
+    width: 300px;
+    margin: 40px;
+    padding-top: 15px;
+}
+
+.contact {
+    padding-top: 60px;
+    position: relative;
+    height: 200px;
+}
+
+#copyright {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
